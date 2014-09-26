@@ -1,0 +1,223 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"visible": true,
+					"defaultDiagram": true
+				},
+				{
+					"_type": "UMLPackage",
+					"_id": "AAAAAAFIr81587YKGUg=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Package1",
+					"ownedElements": [
+						{
+							"_type": "UMLPrimitiveType",
+							"_id": "AAAAAAFIr8vbVLXekBg=",
+							"_parent": {
+								"$ref": "AAAAAAFIr81587YKGUg="
+							},
+							"name": "u8",
+							"visibility": "public",
+							"isAbstract": false,
+							"isFinalSpecification": false,
+							"isLeaf": false
+						},
+						{
+							"_type": "UMLPrimitiveType",
+							"_id": "AAAAAAFIr8wHWrXnaf4=",
+							"_parent": {
+								"$ref": "AAAAAAFIr81587YKGUg="
+							},
+							"name": "u16",
+							"visibility": "public",
+							"isAbstract": false,
+							"isFinalSpecification": false,
+							"isLeaf": false
+						},
+						{
+							"_type": "UMLPrimitiveType",
+							"_id": "AAAAAAFIr8wYErXrWCU=",
+							"_parent": {
+								"$ref": "AAAAAAFIr81587YKGUg="
+							},
+							"name": "u32",
+							"visibility": "public",
+							"isAbstract": false,
+							"isFinalSpecification": false,
+							"isLeaf": false
+						},
+						{
+							"_type": "UMLPrimitiveType",
+							"_id": "AAAAAAFIr8wckrXv6Oc=",
+							"_parent": {
+								"$ref": "AAAAAAFIr81587YKGUg="
+							},
+							"name": "u64",
+							"visibility": "public",
+							"isAbstract": false,
+							"isFinalSpecification": false,
+							"isLeaf": false
+						},
+						{
+							"_type": "UMLPrimitiveType",
+							"_id": "AAAAAAFIr8zSoLX3jBM=",
+							"_parent": {
+								"$ref": "AAAAAAFIr81587YKGUg="
+							},
+							"name": "s8",
+							"visibility": "public",
+							"isAbstract": false,
+							"isFinalSpecification": false,
+							"isLeaf": false
+						},
+						{
+							"_type": "UMLPrimitiveType",
+							"_id": "AAAAAAFIr8ztZ7X7yqo=",
+							"_parent": {
+								"$ref": "AAAAAAFIr81587YKGUg="
+							},
+							"name": "s16",
+							"visibility": "public",
+							"isAbstract": false,
+							"isFinalSpecification": false,
+							"isLeaf": false
+						},
+						{
+							"_type": "UMLPrimitiveType",
+							"_id": "AAAAAAFIr8zusLX/Lmw=",
+							"_parent": {
+								"$ref": "AAAAAAFIr81587YKGUg="
+							},
+							"name": "s32",
+							"visibility": "public",
+							"isAbstract": false,
+							"isFinalSpecification": false,
+							"isLeaf": false
+						},
+						{
+							"_type": "UMLPrimitiveType",
+							"_id": "AAAAAAFIr8zv2LYDzi8=",
+							"_parent": {
+								"$ref": "AAAAAAFIr81587YKGUg="
+							},
+							"name": "s64",
+							"visibility": "public",
+							"isAbstract": false,
+							"isFinalSpecification": false,
+							"isLeaf": false
+						}
+					],
+					"visibility": "public"
+				},
+				{
+					"_type": "UMLPackage",
+					"_id": "AAAAAAFIr/s+IMPt9q8=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Bullet",
+					"ownedElements": [
+						{
+							"_type": "UMLPrimitiveType",
+							"_id": "AAAAAAFIr9zrLbYbyeY=",
+							"_parent": {
+								"$ref": "AAAAAAFIr/s+IMPt9q8="
+							},
+							"name": "btScalar",
+							"visibility": "public",
+							"isAbstract": false,
+							"isFinalSpecification": false,
+							"isLeaf": false
+						},
+						{
+							"_type": "UMLClass",
+							"_id": "AAAAAAFIsAALCsPySjs=",
+							"_parent": {
+								"$ref": "AAAAAAFIr/s+IMPt9q8="
+							},
+							"name": "btVector2",
+							"visibility": "public",
+							"isAbstract": false,
+							"isFinalSpecification": false,
+							"isLeaf": false,
+							"isActive": false
+						},
+						{
+							"_type": "UMLClass",
+							"_id": "AAAAAAFIsABSQMP2YOQ=",
+							"_parent": {
+								"$ref": "AAAAAAFIr/s+IMPt9q8="
+							},
+							"name": "btVector3",
+							"visibility": "public",
+							"isAbstract": false,
+							"isFinalSpecification": false,
+							"isLeaf": false,
+							"isActive": false
+						},
+						{
+							"_type": "UMLClass",
+							"_id": "AAAAAAFIsADHGMP68x4=",
+							"_parent": {
+								"$ref": "AAAAAAFIr/s+IMPt9q8="
+							},
+							"name": "btVector4",
+							"visibility": "public",
+							"isAbstract": false,
+							"isFinalSpecification": false,
+							"isLeaf": false,
+							"isActive": false
+						},
+						{
+							"_type": "UMLClass",
+							"_id": "AAAAAAFIsDo7HsP+H1Q=",
+							"_parent": {
+								"$ref": "AAAAAAFIr/s+IMPt9q8="
+							},
+							"name": "btTransform",
+							"visibility": "public",
+							"isAbstract": false,
+							"isFinalSpecification": false,
+							"isLeaf": false,
+							"isActive": false
+						},
+						{
+							"_type": "UMLClass",
+							"_id": "AAAAAAFIsDrSvsQCeJ0=",
+							"_parent": {
+								"$ref": "AAAAAAFIr/s+IMPt9q8="
+							},
+							"name": "Class1",
+							"visibility": "public",
+							"isAbstract": false,
+							"isFinalSpecification": false,
+							"isLeaf": false,
+							"isActive": false
+						}
+					],
+					"visibility": "public"
+				}
+			],
+			"visibility": "public"
+		}
+	]
+}
